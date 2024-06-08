@@ -1,2 +1,3 @@
-# Ola mundo
- Primeiro repositório do GIT e GITHUB
+# Primeiro repertório
+
+Desevolvendo os primeiros códigos
