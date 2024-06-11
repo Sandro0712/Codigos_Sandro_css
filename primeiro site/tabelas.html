@@ -45,7 +45,68 @@
 
       <section id="finanças">
         <h2>Tabela de controle finaceiro</h2>
+        <table border="2">
+          <thead>
+            <!-- Colocamos primiro a tag da linha   "TR" -->
+            <tr>
+              <!-- em seguida a tag com os nmes que vao em cada coluna -->
+              <th>Data</th>
+              <th>Tipo</th>
+              <th>Descrição</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <!-- dentro do tbody sempre iremos utilizar o TD -->
+          
+          <tbody>
+            <tr>
+              <td rowspan="2">15/06/2024</td>
+              <td colspan="2">Despesa</td>
+              <!-- <td>Almoço</td> -->
+              <td>R$35,00</td>
+            </tr>
+            <tr>
+              
+              <td>Receita</td>
+              <td>Salário</td>
+              <td>R$3.768,00</td>
+            </tr>
+          </tbody>
+        </section>
+          <!-- Para mesclar dois elemntos iguais como no exemplo acima, podemos usar a tag  ROESPAN, VEJA O QUE ACONTECE-->
+         
+          <section id="finanças-2">
+            <h2>Tabelade finanças 2</h2>
+            <table border="2">
+              
+              <thead>
+                 <tr>                 
+                  <th>Data</th>
+                  <th>Tipo</th>
+                  <th>Descrição</th>
+                  <th>Valor</th>
+                </tr>
+              </thead>
+         
+            <tbody>
+              <tr>
+                <td>15/06/2024</td>
+                
+                <td>Despesa</td>
+                <td>Almoço</td>
+                <td>R$35,00</td>
+              </tr>
+              <tr>
+                <td>15/06/2024</td>
+                <td>Receita</td>
+                <td>Salário</td>
+                <td>R$3.768,00</td>
+              </tr>
+            </tbody>         
+          </table>        
       </section>
-    </main>
+    
+  </main>
   </body>
-</html>
+  </html>
+  
