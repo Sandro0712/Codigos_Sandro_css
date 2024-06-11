@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <main>
+      <h1>Formulários</h1>
+      <hr />
+      <form>
+        <div>
+          <label for="texto">input de texto</label>
+          <input type="text" id="texto" placeholder="infomre o seu nome" />
+          <input type="text" id="texto" value="Sandro" />
+        </div>
+        <!-- Para inserir o nome -->
+        <div>
+          <label for="texto">Nome:</label>
+          <input type="text" id="texto" name="Nome" />
+        </div>
+        <!-- Para inserir o senha -->
+        <div>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" />
+        </div>
+        <!-- Para inserir o e-mail -->
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <!-- Para inserir a data -->
+        <div>
+          <label for="data">Data de nascimneto:</label>
+          <input type="date" id="data" name="data" />
+        </div>
+        <!-- Para inserir a hora -->
+        <div>
+          <label for="hora">Data de nascimneto:</label>
+          <input type="time" id="hora" name="data" />
+        </div>
+        <!-- Para inserir a numero -->
+        <div>
+          <label for="qualquer">Número:</label>
+          <input type="number" id="qualquer" name="qualquer" />
+        </div>
+        <!-- Inserir arquivo -->
+        <div>
+          <label for="qualquer">Arquivo:</label>
+          <input type="file" id="qualquer" name="qualquer" />
+        </div>
+        <!-- Inserir url -->
+        <div>
+          <label for="qualquer">URL:</label>
+          <input type="url" id="qualquer" name="qualquer" />
+        </div>
+        <!-- Inserir cor -->
+        <div>
+          <label for="qualquer">Cor:</label>
+          <input type="color" id="qualquer" name="qualquer" />
+        </div>
+        <!-- Inserir barra de cor -->
+        <div>
+          <label for="qualquer">Barra de cor:</label>
+          <input type="range" id="qualquer" name="qualquer" />
+        </div>
+        <!-- Inserir caixa de seleção -->
+        <div>
+          <label for="qualquer">Caixa de seleção:</label>
+          <input type="checkbox" id="qualquer" name="qualquer" />
+        </div>
+        <!-- Inserir caixa de seleção , se tiver várias so irá marcar uma-->
+        <div>
+          <label for="qualquer">Radio:</label>
+          <input type="radio" id="qualquer" name="qualquer" />
+        </div>
+        <!-- inserir o botão de reset, tudo que tiver preeenchido voltará ao normal -->
+        <div>
+          <label for="qualquer">Redefinir</label>
+          <input type="reset" id="qualquer" name="qualquer" value="limpar" />
+        </div>
+        <!-- inserir de enivar o arquivo -->
+        <div>
+          <!-- <label for="qualquer">Enviarr</label> -->
+          <input type="submit" id="qualquer" name="qualquer" value="Enviar" />
+        </div>
+      </form>
+      <!-- inserir a caixa de texto -->
+      <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+      <div>
+        <select name="select" id="select">
+          <option value="receita">Receita</option>
+          <option value="despesa">Despesa</option>
+          <option value="transferencia">Transferência</option>
+        </select>
+      </div>
+      <!-- quando ele é obrigado a selecionar uma das opções, ou não consegue eniar o arquivo -->
+      <div>
+        <select name="select" id="select">
+          <option value="" disabled selected>Selecione uma ds opções</option>
+          <option value="receita">Receita</option>
+          <option value="despesa">Despesa</option>
+          <option value="transferencia">Transferência</option>
+        </select>
+      </div>
+    </main>
+  </body>
+</html>
